@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betsson.OnlineWallets.Data.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betsson.OnlineWallets.Web.E2ETests", "tests\Betsson.OnlineWallets.Web.E2ETests\Betsson.OnlineWallets.Web.E2ETests.csproj", "{3FE1BD08-9069-43E6-8CB4-0F795448274C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betsson.OnlineWallets.Web.UnitTests", "tests\Betsson.OnlineWallets.Web.UnitTests\Betsson.OnlineWallets.Web.UnitTests.csproj", "{294C9CCE-C068-4C77-A0B7-204A2D977154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betsson.OnlineWallets.Data.UnitTests", "tests\Betsson.OnlineWallets.Data.UnitTests\Betsson.OnlineWallets.Data.UnitTests.csproj", "{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +105,30 @@ Global
 		{3FE1BD08-9069-43E6-8CB4-0F795448274C}.Release|x64.Build.0 = Release|Any CPU
 		{3FE1BD08-9069-43E6-8CB4-0F795448274C}.Release|x86.ActiveCfg = Release|Any CPU
 		{3FE1BD08-9069-43E6-8CB4-0F795448274C}.Release|x86.Build.0 = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|x64.Build.0 = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Debug|x86.Build.0 = Debug|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|x64.ActiveCfg = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|x64.Build.0 = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|x86.ActiveCfg = Release|Any CPU
+		{294C9CCE-C068-4C77-A0B7-204A2D977154}.Release|x86.Build.0 = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|x64.Build.0 = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,5 +140,10 @@ Global
 		{81C81FFB-4455-41CC-9CB5-52CC7D6B5DAF} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{B7A89FBA-C606-4B3C-AE11-7F239A3375DE} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{3FE1BD08-9069-43E6-8CB4-0F795448274C} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{294C9CCE-C068-4C77-A0B7-204A2D977154} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{D2C27C7C-B9CC-4B9A-AFC5-DC55435165D6} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED057DC-F632-472F-BD60-A5D5C24DDE3C}
 	EndGlobalSection
 EndGlobal
